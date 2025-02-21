@@ -1,0 +1,4 @@
+# Ignore backups and misc stuff from KiCad
+ROV_Schematics_NoPCB-backups
+\#auto_saved_files\#
+test.txt
