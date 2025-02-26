@@ -1,3 +1,4 @@
 # Ignore backups and misc stuff from KiCad
 ROV_Schematics_NoPCB-backups
 \#auto_saved_files\#
+~ROV_Schematics_NoPCB.kicad_sch.lck
