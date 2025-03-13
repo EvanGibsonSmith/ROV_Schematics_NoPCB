@@ -411,6 +411,290 @@
 				)
 			)
 		)
+		(symbol "ROV_Custom_Symbols:Thruster"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Thruster"
+				(at 0 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thruster_1_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -5.08 0 90)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 90)
+					(length 2.54)
+					(name "Signal"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ROV_Custom_Symbols:Thruster_ESC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ESC"
+				(at -9.144 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thruster_ESC_1_1"
+				(rectangle
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "Power"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "Signal"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "Power"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "Signal"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ROV_Schematics_NoPCB-eagle-import:FIDUCIAL_1MM"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -33389,56 +33673,66 @@
 		)
 	)
 	(junction
-		(at 137.16 86.36)
+		(at 101.6 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08c3f4fd-9e52-4b6b-8960-05f557a4d49a")
 	)
 	(junction
-		(at 157.48 121.92)
+		(at 121.92 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f690818-f42e-4d6b-9e45-e83fa0116ef0")
 	)
 	(junction
-		(at 146.05 121.92)
+		(at 110.49 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "577c8b52-95ec-443d-9c9a-8fbb1a62b66b")
 	)
 	(junction
-		(at 153.67 121.92)
+		(at 118.11 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f596b09-5c08-40d1-a92f-0aab23acd10c")
 	)
 	(junction
-		(at 149.86 121.92)
+		(at 114.3 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "849d9787-6716-4b10-8d42-8cbbed21cfe4")
 	)
 	(junction
-		(at 138.43 121.92)
+		(at 102.87 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85cf5a6e-1a33-463e-94e8-87efdacd0465")
 	)
 	(junction
-		(at 142.24 121.92)
+		(at 106.68 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8df17f73-09b3-44ce-b98c-de9c98f2b901")
 	)
 	(junction
-		(at 147.32 121.92)
+		(at 111.76 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee4253c6-e54b-42c3-9a55-ce164d7eea80")
 	)
 	(wire
 		(pts
-			(xy 157.48 115.57) (xy 157.48 121.92)
+			(xy 217.17 109.22) (xy 217.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f0aaea-30f9-4da2-afbd-9e39b383ea60")
+	)
+	(wire
+		(pts
+			(xy 121.92 107.95) (xy 121.92 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33448,13 +33742,43 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 115.57) (xy 149.86 121.92)
+			(xy 222.25 39.37) (xy 222.25 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ac0d89-a706-4c38-bdf4-859b8ffe0350")
+	)
+	(wire
+		(pts
+			(xy 114.3 107.95) (xy 114.3 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0ed2a5d9-666b-4347-8d52-893985382a77")
+	)
+	(wire
+		(pts
+			(xy 200.66 109.22) (xy 200.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1274c9ab-3d9b-4754-9936-e0f67687b35f")
+	)
+	(wire
+		(pts
+			(xy 198.12 74.93) (xy 200.66 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ebff45-d56f-4c87-ae77-4e1fa8c6494a")
 	)
 	(polyline
 		(pts
@@ -33468,7 +33792,47 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 115.57) (xy 138.43 121.92)
+			(xy 193.04 109.22) (xy 190.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3ea987-8c67-4593-b49f-db4e318e06d9")
+	)
+	(wire
+		(pts
+			(xy 195.58 107.95) (xy 195.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff6cc89-92e2-4ebe-920c-327b6a7f5d62")
+	)
+	(wire
+		(pts
+			(xy 254 40.64) (xy 254 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a652deb-4b28-4b9e-9289-b5d545327958")
+	)
+	(wire
+		(pts
+			(xy 246.38 74.93) (xy 243.84 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db7a911-b438-4ee1-bd7a-a33c4c2f9cfb")
+	)
+	(wire
+		(pts
+			(xy 102.87 107.95) (xy 102.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33478,7 +33842,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 121.92) (xy 161.29 121.92)
+			(xy 121.92 114.3) (xy 125.73 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33488,7 +33852,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 83.82) (xy 137.16 86.36)
+			(xy 101.6 76.2) (xy 101.6 78.74)
 		)
 		(stroke
 			(width 0)
@@ -33498,7 +33862,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 121.92) (xy 149.86 121.92)
+			(xy 111.76 114.3) (xy 114.3 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33508,7 +33872,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 121.92) (xy 138.43 121.92)
+			(xy 222.25 107.95) (xy 222.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46522649-f376-4246-a088-11d20888f056")
+	)
+	(wire
+		(pts
+			(xy 99.06 114.3) (xy 102.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33518,7 +33892,47 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 106.68) (xy 132.08 106.68)
+			(xy 254 74.93) (xy 254 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c51e70b-4b38-4ca2-becf-3943b2074069")
+	)
+	(wire
+		(pts
+			(xy 227.33 40.64) (xy 227.33 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c64dec5-fd65-439e-8f81-8e93dfaf1f36")
+	)
+	(wire
+		(pts
+			(xy 198.12 40.64) (xy 200.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dac6927-bfbb-4521-843a-c5fd88790adb")
+	)
+	(wire
+		(pts
+			(xy 219.71 40.64) (xy 217.17 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4efa14bf-b1c7-4113-80b0-322e1691d1de")
+	)
+	(wire
+		(pts
+			(xy 80.01 99.06) (xy 96.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -33528,7 +33942,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 115.57) (xy 161.29 121.92)
+			(xy 125.73 107.95) (xy 125.73 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33538,7 +33952,47 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 86.36) (xy 137.16 86.36)
+			(xy 190.5 109.22) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57471883-49f6-4cb7-b392-1f1420a2608b")
+	)
+	(wire
+		(pts
+			(xy 243.84 40.64) (xy 243.84 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0c3e31-118a-4508-83c9-54c00eae5425")
+	)
+	(wire
+		(pts
+			(xy 200.66 40.64) (xy 200.66 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7afc73-7d90-4ba1-8cc2-9517c1ccf4c6")
+	)
+	(wire
+		(pts
+			(xy 246.38 40.64) (xy 243.84 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b31adb0-4b61-4071-9b5a-99a48c24beee")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 101.6 78.74)
 		)
 		(stroke
 			(width 0)
@@ -33548,7 +34002,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 115.57) (xy 142.24 121.92)
+			(xy 248.92 39.37) (xy 248.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6400467d-f131-46af-9989-5b884e2e335f")
+	)
+	(wire
+		(pts
+			(xy 106.68 107.95) (xy 106.68 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33558,7 +34022,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 121.92) (xy 147.32 121.92)
+			(xy 224.79 74.93) (xy 227.33 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bbd505f-6828-457f-8655-ebfb326795f3")
+	)
+	(wire
+		(pts
+			(xy 110.49 114.3) (xy 111.76 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33568,7 +34042,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 115.57) (xy 146.05 121.92)
+			(xy 110.49 107.95) (xy 110.49 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33578,7 +34052,27 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 86.36) (xy 139.7 91.44)
+			(xy 227.33 74.93) (xy 227.33 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b04a86-d609-4971-af27-16c11f4f7129")
+	)
+	(wire
+		(pts
+			(xy 251.46 74.93) (xy 254 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ff0eb4-cf54-4d91-8e38-b812b9c2078a")
+	)
+	(wire
+		(pts
+			(xy 104.14 78.74) (xy 104.14 83.82)
 		)
 		(stroke
 			(width 0)
@@ -33588,7 +34082,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 100.33) (xy 130.81 100.33)
+			(xy 80.01 92.71) (xy 95.25 92.71)
 		)
 		(stroke
 			(width 0)
@@ -33598,7 +34092,67 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 91.44) (xy 134.62 86.36)
+			(xy 219.71 74.93) (xy 217.17 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a588ae6-5025-43c6-8876-2fb17297fd16")
+	)
+	(wire
+		(pts
+			(xy 224.79 109.22) (xy 227.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f18a51-3de7-4ce1-ab45-062d08e0d492")
+	)
+	(wire
+		(pts
+			(xy 248.92 73.66) (xy 248.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8949d286-8bde-42b0-b631-eedc6e37e6c5")
+	)
+	(wire
+		(pts
+			(xy 190.5 74.93) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7bf438-fd1a-45e2-87bd-b073b59a4180")
+	)
+	(wire
+		(pts
+			(xy 217.17 40.64) (xy 217.17 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c54c149-9f62-4ae5-805d-8eebe88ac360")
+	)
+	(wire
+		(pts
+			(xy 190.5 40.64) (xy 190.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "911aa4d4-c6e6-4260-8d1e-0dca015845a2")
+	)
+	(wire
+		(pts
+			(xy 99.06 83.82) (xy 99.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -33608,7 +34162,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 121.92) (xy 142.24 121.92)
+			(xy 200.66 74.93) (xy 200.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "974fb6dd-7384-434d-bce2-01ca3862d90c")
+	)
+	(wire
+		(pts
+			(xy 102.87 114.3) (xy 106.68 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33618,7 +34182,37 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 121.92) (xy 146.05 121.92)
+			(xy 227.33 109.22) (xy 227.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3db917c-f010-4d44-a7c0-1bca3057b657")
+	)
+	(wire
+		(pts
+			(xy 217.17 74.93) (xy 217.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55773e1-2c82-4297-ba58-6af072ddedfb")
+	)
+	(wire
+		(pts
+			(xy 251.46 40.64) (xy 254 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aadb5506-fe76-4f13-bc19-dc921b37acf6")
+	)
+	(wire
+		(pts
+			(xy 106.68 114.3) (xy 110.49 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33628,7 +34222,47 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 121.92) (xy 153.67 121.92)
+			(xy 222.25 73.66) (xy 222.25 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bbb11c-7184-481b-91b7-32d296a9d7f2")
+	)
+	(wire
+		(pts
+			(xy 195.58 39.37) (xy 195.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e479fc-80d8-4396-8aba-0ee4a62e793d")
+	)
+	(wire
+		(pts
+			(xy 243.84 74.93) (xy 243.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bdba68-a2a0-40a8-b3b4-c81c341ea6e6")
+	)
+	(wire
+		(pts
+			(xy 198.12 109.22) (xy 200.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9187062-be29-4fd8-910e-5ca70443586b")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 118.11 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33638,7 +34272,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 121.92) (xy 147.32 125.73)
+			(xy 111.76 114.3) (xy 111.76 118.11)
 		)
 		(stroke
 			(width 0)
@@ -33648,7 +34282,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 86.36) (xy 139.7 86.36)
+			(xy 219.71 109.22) (xy 217.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e3eb0c-19fc-41a7-97a3-a8c867140252")
+	)
+	(wire
+		(pts
+			(xy 101.6 78.74) (xy 104.14 78.74)
 		)
 		(stroke
 			(width 0)
@@ -33658,7 +34302,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 121.92) (xy 157.48 121.92)
+			(xy 193.04 74.93) (xy 190.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce67ce3c-cf51-4cf8-ab43-078759b431f1")
+	)
+	(wire
+		(pts
+			(xy 118.11 114.3) (xy 121.92 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33668,7 +34322,27 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 115.57) (xy 134.62 121.92)
+			(xy 195.58 73.66) (xy 195.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de77293b-583d-4b60-84f2-3288215323aa")
+	)
+	(wire
+		(pts
+			(xy 224.79 40.64) (xy 227.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2943526-7c8c-406a-99d0-19d3de1124e2")
+	)
+	(wire
+		(pts
+			(xy 99.06 107.95) (xy 99.06 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33678,7 +34352,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 115.57) (xy 153.67 121.92)
+			(xy 118.11 107.95) (xy 118.11 114.3)
 		)
 		(stroke
 			(width 0)
@@ -33686,15 +34360,180 @@
 		)
 		(uuid "eff8f40d-e8bb-49a1-b762-dfb970d29f1d")
 	)
+	(wire
+		(pts
+			(xy 193.04 40.64) (xy 190.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc15524e-bc18-4f35-b6f8-815ed3755b28")
+	)
 	(text "Only includes needed pins of dev kit\n\n\n\n"
 		(exclude_from_sim no)
-		(at 128.778 83.058 0)
+		(at 93.218 75.438 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "d8400711-3e9f-4171-be3a-d4026cc1f288")
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster")
+		(at 248.92 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "117bf114-f1cb-47b6-a654-b06f62271217")
+		(property "Reference" "Thruster3"
+			(at 257.81 32.3849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 257.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1027275-e260-4963-943e-2c0a58505fe6")
+		)
+		(pin "2"
+			(uuid "b3ec224c-85ab-47a6-b36b-26cb89c9661f")
+		)
+		(pin "3"
+			(uuid "199f0602-f7fb-409c-bca6-8f913e27149e")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "Thruster3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster_ESC")
+		(at 248.92 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1633b5ce-9a80-4254-a4a0-891f94723c2f")
+		(property "Reference" "ESC6"
+			(at 256.54 84.4549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 256.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7814cc0-0e3e-489e-9c42-60ca4fd68dbd")
+		)
+		(pin "5"
+			(uuid "9123ff29-016e-4b9c-929a-ded9e8f8ae0a")
+		)
+		(pin "6"
+			(uuid "01939109-7342-4617-b8a8-be9788faaaff")
+		)
+		(pin "1"
+			(uuid "74595aed-2277-4f5b-bbd9-77746ca6e7fa")
+		)
+		(pin "4"
+			(uuid "25a13104-8bad-4d81-9e5d-ba0b9cfd9ecf")
+		)
+		(pin "3"
+			(uuid "0782bc0b-580c-44ea-9b33-3c3dbcc18098")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "ESC6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ROV_Schematics_NoPCB-eagle-import:MOUNTINGHOLE2.5")
@@ -33754,6 +34593,234 @@
 			(project ""
 				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
 					(reference "U$49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster")
+		(at 248.92 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eceeebf-667e-430e-a952-82deef7ba573")
+		(property "Reference" "Thruster6"
+			(at 257.81 66.6749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 257.81 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "470b6eb5-0b62-42a9-89a0-5f87797806ed")
+		)
+		(pin "2"
+			(uuid "2c32ac69-3c4b-4c27-9b14-7631bd3b9327")
+		)
+		(pin "3"
+			(uuid "2f6a6c2b-e0d4-42ff-991f-ba5cd3b3749e")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "Thruster6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster_ESC")
+		(at 222.25 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1edb9f8d-c564-43dd-bb78-5847ec2ffe97")
+		(property "Reference" "ESC8"
+			(at 229.87 118.7449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 229.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c590c1d6-3f4e-4d6f-8a38-16d8f43a2223")
+		)
+		(pin "5"
+			(uuid "7fb64a77-f1a6-4d1d-8ea7-bff7a1e68dd2")
+		)
+		(pin "6"
+			(uuid "cfdcdbb1-95e0-49f7-a1a4-2ab7ce95b0f8")
+		)
+		(pin "1"
+			(uuid "52813da3-92f7-48fc-bb0e-6dae91ef49ce")
+		)
+		(pin "4"
+			(uuid "ee9c0251-a1c4-41b5-80ef-508f668824a8")
+		)
+		(pin "3"
+			(uuid "dc641dbd-5710-4f96-813b-10724284ddf4")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "ESC8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster")
+		(at 195.58 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21cdaf06-1dcb-450b-bb0f-3f76ba1237f3")
+		(property "Reference" "Thruster4"
+			(at 204.47 66.6749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 204.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "771c513c-422f-43af-85d0-7e363aed3178")
+		)
+		(pin "2"
+			(uuid "6c9bbd71-44ad-4234-b82f-edc5ab429d0d")
+		)
+		(pin "3"
+			(uuid "1feae401-eb2d-4a6a-8620-9f0dfe505ed0")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "Thruster4")
 					(unit 1)
 				)
 			)
@@ -33823,6 +34890,307 @@
 		)
 	)
 	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster")
+		(at 222.25 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c0e6054-ccc1-4e8b-88ba-b347b668ca85")
+		(property "Reference" "Thruster8"
+			(at 231.14 100.9649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 231.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5404bce-75e1-4d03-ad3f-53dc8ea11618")
+		)
+		(pin "2"
+			(uuid "292fd93c-c888-4cd8-b3c4-fe92221cdcfe")
+		)
+		(pin "3"
+			(uuid "30266cb8-eb21-4fc0-bfb0-f2ef807d7f76")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "Thruster8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster")
+		(at 195.58 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f79c2b8-867a-4201-aec1-a0d7fe79950d")
+		(property "Reference" "Thruster7"
+			(at 204.47 100.9649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a79beb61-a86a-41ad-b945-1afda4ff15d1")
+		)
+		(pin "2"
+			(uuid "c22798ed-b0ee-4169-8c6c-90780301291f")
+		)
+		(pin "3"
+			(uuid "bf096759-3521-4576-ba42-ff9c3bf12c39")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "Thruster7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster_ESC")
+		(at 248.92 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c07ee8f-bed3-486b-8cdd-0f738d253db7")
+		(property "Reference" "ESC3"
+			(at 256.54 50.1649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 256.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5404bc51-e921-441b-9553-3909526fc0c4")
+		)
+		(pin "5"
+			(uuid "7f121db8-c1e2-4d20-9d11-00e8af01619e")
+		)
+		(pin "6"
+			(uuid "6a398e03-8bee-46fa-bca2-0c5559769f0e")
+		)
+		(pin "1"
+			(uuid "0dbbc2fa-bc5b-41d3-ab5d-deb006fbf31e")
+		)
+		(pin "4"
+			(uuid "c942b720-0676-4c8f-99e5-9be6e6ffbbf0")
+		)
+		(pin "3"
+			(uuid "a6baa81e-72d4-4b71-80a2-0f6ea05f635e")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "ESC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster")
+		(at 195.58 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ba40429-a37c-49d1-84be-c3e2cec29c50")
+		(property "Reference" "Thruster1"
+			(at 204.47 32.3849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b84489a1-a6f4-4d25-a7a1-df4645a6c2d3")
+		)
+		(pin "2"
+			(uuid "2b316e61-a47b-49eb-a163-4e9868b31d50")
+		)
+		(pin "3"
+			(uuid "792463b2-f237-4caa-8705-5204eece697c")
+		)
+		(instances
+			(project ""
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "Thruster1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ROV_Schematics_NoPCB-eagle-import:FRAME_A4_ADAFRUIT")
 		(at 17.78 198.12 0)
 		(unit 1)
@@ -33880,6 +35248,325 @@
 			(project ""
 				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
 					(reference "#U$47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster")
+		(at 222.25 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83669546-7f1a-4064-a497-b231127773ff")
+		(property "Reference" "Thruster5"
+			(at 231.14 66.6749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8b52cad-ba09-4476-90cf-2d224031371a")
+		)
+		(pin "2"
+			(uuid "1fd2c743-bb36-49bd-915a-20e3fb363bb9")
+		)
+		(pin "3"
+			(uuid "bfd45096-b575-4887-984d-8ac4b3780c93")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "Thruster5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster_ESC")
+		(at 222.25 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8665e23e-bea6-45e4-8354-d162c0c28cd9")
+		(property "Reference" "ESC5"
+			(at 229.87 84.4549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 229.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4a0f4ce-9d54-429c-aa97-44e85abeb34a")
+		)
+		(pin "5"
+			(uuid "346ba5fc-fcfd-4aa9-be60-ac9d00bd7cac")
+		)
+		(pin "6"
+			(uuid "6affe927-f444-4a6e-9c21-2093e51f9eef")
+		)
+		(pin "1"
+			(uuid "47ddb369-f195-4e1f-8d2c-e9daa2d3b3eb")
+		)
+		(pin "4"
+			(uuid "a0524eda-3904-48a0-8298-6e155848df67")
+		)
+		(pin "3"
+			(uuid "8c780f23-bbc8-42ed-9ffe-313871c85fea")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "ESC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster_ESC")
+		(at 222.25 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "873691fc-1bc2-457a-a6d4-56fbeae9ee33")
+		(property "Reference" "ESC2"
+			(at 229.87 50.1649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 229.87 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9dfda528-3bcf-4bb1-823a-75b6af9e463a")
+		)
+		(pin "5"
+			(uuid "df47c907-edb6-4485-83c4-ed0a18bc7a08")
+		)
+		(pin "6"
+			(uuid "2a483ea9-6abd-4265-972b-5d7686254dde")
+		)
+		(pin "1"
+			(uuid "a233ae07-e27f-43ec-ae09-155dcb8add19")
+		)
+		(pin "4"
+			(uuid "47e0fefc-f1c2-421c-927f-9f5375b88db2")
+		)
+		(pin "3"
+			(uuid "b246b724-7656-4261-854b-3321393dbf2c")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "ESC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster_ESC")
+		(at 195.58 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d2b804a-b14a-4d3e-bf7a-65a3da17228f")
+		(property "Reference" "ESC1"
+			(at 203.2 50.1649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9266e6b8-098f-4892-bb68-4424838d7ecf")
+		)
+		(pin "5"
+			(uuid "0d5ba589-673b-4a14-bf95-5f68d98b761f")
+		)
+		(pin "6"
+			(uuid "bdadfaa1-fde0-4292-9d28-669ce8bc7bfa")
+		)
+		(pin "1"
+			(uuid "08a13afd-c8ed-49a2-b656-c81a52a5603e")
+		)
+		(pin "4"
+			(uuid "3121a57f-474e-4e1e-bcbd-622fec3f01dd")
+		)
+		(pin "3"
+			(uuid "b52a2056-2b7f-4041-8684-1b7640ab19a1")
+		)
+		(instances
+			(project ""
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "ESC1")
 					(unit 1)
 				)
 			)
@@ -33950,7 +35637,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 125.73 0)
+		(at 111.76 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33959,7 +35646,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e7c866c-e9fc-470a-ac6d-2dc9e6cbf6fc")
 		(property "Reference" "#PWR1"
-			(at 147.32 132.08 0)
+			(at 111.76 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33968,7 +35655,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 130.81 0)
+			(at 111.76 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33976,7 +35663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 125.73 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33985,7 +35672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 125.73 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33994,7 +35681,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 125.73 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34015,34 +35702,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 137.16 83.82 0)
+		(lib_id "ROV_Custom_Symbols:Thruster_ESC")
+		(at 195.58 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c556ad63-c480-4acf-9aeb-020866a08e70")
-		(property "Reference" "#PWR2"
-			(at 137.16 87.63 0)
+		(uuid "a4c01086-68a8-48ca-a493-4068fd53f892")
+		(property "Reference" "ESC4"
+			(at 203.2 84.4549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "+5V"
-			(at 137.16 78.74 0)
+		(property "Value" "~"
+			(at 203.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 83.82 0)
+			(at 194.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34051,7 +35739,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 83.82 0)
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9326cc14-f833-49d1-97c5-cafa945dc241")
+		)
+		(pin "5"
+			(uuid "f22ef308-bbc3-405c-9426-18d9ef820326")
+		)
+		(pin "6"
+			(uuid "bfe8f922-98d6-4d7b-b4f4-863de957aaee")
+		)
+		(pin "1"
+			(uuid "0a9ad895-650b-43a0-8d11-a870de421fef")
+		)
+		(pin "4"
+			(uuid "443bd7a5-24fd-41fe-893e-34f4af448b77")
+		)
+		(pin "3"
+			(uuid "e07a65eb-9367-48ef-ab2d-b8c20af2fdc8")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "ESC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 101.6 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c556ad63-c480-4acf-9aeb-020866a08e70")
+		(property "Reference" "#PWR2"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34060,7 +35829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 137.16 83.82 0)
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34144,32 +35913,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ROV_Custom_Symbols:Orin_Nano_Dev_Pins")
-		(at 147.32 102.87 0)
+		(lib_id "ROV_Custom_Symbols:Thruster")
+		(at 222.25 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "da3af58b-9136-466e-baf5-fa344aac00b7")
-		(property "Reference" "U1"
-			(at 147.32 102.87 0)
+		(fields_autoplaced yes)
+		(uuid "d84a4e4d-1498-4a89-84c2-03cdbc0c0279")
+		(property "Reference" "Thruster2"
+			(at 231.14 32.3849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 167.64 97.1865 0)
+			(at 231.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 102.87 0)
+			(at 222.25 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34178,7 +35950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 102.87 0)
+			(at 222.25 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34187,7 +35959,159 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 102.87 0)
+			(at 222.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a428630-6c04-46e1-8f9d-722a31bc3af9")
+		)
+		(pin "2"
+			(uuid "ba875c64-aef0-4e3d-9fb4-59080737b68d")
+		)
+		(pin "3"
+			(uuid "bf83ae6c-c64a-41d3-850f-69fc1378b37e")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "Thruster2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Thruster_ESC")
+		(at 195.58 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8a41d07-43b6-48f4-97c9-8bd789cc8444")
+		(property "Reference" "ESC7"
+			(at 203.2 118.7449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 203.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2001ffbe-5701-4507-8d7b-d6d7d3025288")
+		)
+		(pin "5"
+			(uuid "52e58d96-09ca-4937-a69d-dd1a1ce32358")
+		)
+		(pin "6"
+			(uuid "eb7d427d-1f4e-4640-9443-492f025ea45f")
+		)
+		(pin "1"
+			(uuid "eeef48dd-4d06-4b8d-91cb-8932bc54266c")
+		)
+		(pin "4"
+			(uuid "e7421cd0-fc15-4e7e-ac61-70a051629dd8")
+		)
+		(pin "3"
+			(uuid "621f2ef9-1fdf-460c-becb-09e211fe100e")
+		)
+		(instances
+			(project "ROV_Schematics_NoPCB"
+				(path "/01af68dd-14ea-43f3-adc5-e1905c3175ab"
+					(reference "ESC7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_Custom_Symbols:Orin_Nano_Dev_Pins")
+		(at 111.76 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da3af58b-9136-466e-baf5-fa344aac00b7")
+		(property "Reference" "U1"
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 89.5665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34388,7 +36312,7 @@
 		)
 	)
 	(sheet
-		(at 113.03 135.89)
+		(at 76.2 135.89)
 		(size 71.12 41.91)
 		(fields_autoplaced yes)
 		(stroke
@@ -34400,7 +36324,7 @@
 		)
 		(uuid "6a630f16-92f3-42e8-9065-d0eeeada0ad2")
 		(property "Sheetname" "Sensors"
-			(at 113.03 135.1784 0)
+			(at 76.2 135.1784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34409,7 +36333,7 @@
 			)
 		)
 		(property "Sheetfile" "Actuators.kicad_sch"
-			(at 113.03 178.3846 0)
+			(at 76.2 178.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34426,8 +36350,8 @@
 		)
 	)
 	(sheet
-		(at 198.12 86.36)
-		(size 44.45 41.91)
+		(at 181.61 26.67)
+		(size 90.17 111.76)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -34438,7 +36362,7 @@
 		)
 		(uuid "fa21cf36-e448-44ca-a4a3-95c7c8a309d0")
 		(property "Sheetname" "Actuators"
-			(at 198.12 85.6484 0)
+			(at 181.61 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34447,7 +36371,7 @@
 			)
 		)
 		(property "Sheetfile" "Actuators.kicad_sch"
-			(at 198.12 128.8546 0)
+			(at 181.61 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
